@@ -1,0 +1,3156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <title>Teknophreak</title>
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" onclick="toggleDisplay('home')" href="#carouselExampleIndicators">Tekno</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="me-auto"></div>
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="toggleDisplay('laptops')" aria-current="page" href="#laptops">Laptops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" onclick="toggleDisplay('aboutus')" aria-current="page" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#yoursetup" onclick="toggleDisplay('yoursetup')">Your Setup</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>      
+
+    </header>
+    <div id="home"class="container home" style="min-width: 100%; padding-top:4rem;">
+
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner p-1">
+        <div class="carousel-item active">
+          <img src="img/alien.jpg" class="d-block  w-100 img img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/NITRO_5.jpg" class="d-block w-100 img img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Predetor.jpg" class="d-block w-100 img img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/NITRO_5.jpg" class="d-block w-100 img img-fluid" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+   
+
+
+    <div class="d-flex justify-content-center best-deals">
+      <a href="#AsusROGZephyrusS" onclick="toggleDisplay('AsusROGZephyrusS')" class="custom-card flex-fill">
+        <div class="card p-2" style="width: 15rem;">
+          <img src="img/Cards/laptops/asusrogS.jpeg" alt="..." class="img-fluid  border border-dark">
+          <div class="card-body">
+            <p class="card-text">Asus ROG Zephyrus S Core i7 9th Gen</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#Legion7i" onclick="toggleDisplay('Legion7i')" class="custom-card flex-fill">
+        <div class="card p-2 " style="width: 15rem;">
+          <img src="img/Cards/laptops/alienware-original-imafu6wjugggkak8.jpeg" class="card-img-top img-fluid border border-dark" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lenovo Legion 7i</p>
+            </div>
+          </div>
+        </a>
+        <a href="#asusbeauty" onclick="toggleDisplay('asusbeauty')" class="custom-card flex-fill">
+          <div class="card p-2" style="width: 15rem;">
+            <img src="img/Cards/laptops/asus-na-gaming-laptop-original-imafwfxbnxyukzwa.jpeg" class="card-img-top img-fluid border border-dark" alt="...">
+            <div class="card-body">
+              <p class="card-text">Asus ROG Zephyrus Duo 15</p>
+              </div>
+          </div>
+        </a>
+        <a href="#msigs75" onclick="toggleDisplay('msigs75')" class="custom-card flex-fill">
+        <div class="card p-2" style="width: 15rem;">
+          <img src="img/Cards/laptops/msi-na-gaming-laptop-original-imafzx7cdqzhthbv.jpeg" class="card-img-top img-fluid border border-dark" alt="...">
+          <div class="card-body">
+            <p class="card-text">MSI GS75</p>
+          </div>
+        </div>
+      </a>
+      <a href="#msigs66" onclick="toggleDisplay('msigs66')" class="custom-card flex-fill">
+        <div class="card p-2" style="width: 15rem;">
+          <img src="img/Cards/laptops/msi-original-imafpbpheq4mj9sk.jpeg" class="card-img-top img-fluid border border-dark" alt="...">
+          <div class="card-body">
+            <p class="card-text">MSI GS66 Stealth</p>
+          </div>
+        </div>
+      </a>
+      <a href="#msigp65" onclick="toggleDisplay('msigp65')" class="custom-card flex-fill">
+        <div class="card p-2" style="width: 15rem;">
+          <img src="img/Cards/laptops/msi-original-imafpbphchfxrmkp.jpeg" class="card-img-top img-fluid border border-dark" alt="...">
+          <div class="card-body">
+            <p class="card-text">MSI GP65 Leopard</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+ 
+    <div id="laptops" class="conatiner laptops">
+      <div class="d-flex flex-column bd-highlight mb-3"> 
+        <a href="#msigp65" onclick="toggleDisplay('msigp65')" class="custom-card p-5">
+        <div class="p-2 bd-highlight card border border-dark mb-3">
+          <div class="row g-0 ">
+            <div class="col-md-4">
+              <img src="img/Cards/laptops/msi-original-imafpbphchfxrmkp.jpeg" alt="..." class="img-fluid border border-dark card-img-top">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">MSI GP65 Leopard</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </a>
+        <a href="#msigs75" onclick="toggleDisplay('msigs75')" class="custom-card p-5">
+      <div class="p-2 bd-highlight card border border-dark mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cards/laptops/msi-na-gaming-laptop-original-imafzx7cdqzhthbv.jpeg" alt="..." class="img-fluid border border-dark card-img-top">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">MSI GS75 Stealth</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#msigs66" onclick="toggleDisplay('msigs66')" class="custom-card p-5">
+      <div class="p-2 bd-highlight border border-dark card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cards/laptops/msi-original-imafpbpheq4mj9sk.jpeg" alt="..." class="img-fluid border border-dark card-img-top">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">MSI GS66 Stealth</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      
+      <a href="#asusbeauty" onclick="toggleDisplay('asusbeauty')" class="custom-card p-5">
+      <div class="p-2 bd-highlight border border-dark card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cards/laptops/asus-na-gaming-laptop-original-imafwfxbnxyukzwa.jpeg" alt="..." class="img-fluid border border-dark card-img-top">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Asus ROG Zephyrus Duo 15</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+     
+      <a href="#Legion7i" onclick="toggleDisplay('Legion7i')" class="custom-card p-5">
+      <div class="p-2 bd-highlight border border-dark card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cards/laptops/alienware-original-imafu6wjugggkak8.jpeg" alt="..." class="img-fluid border border-dark ">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo Legion 7i</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <a href="#AsusROGZephyrusS" onclick="toggleDisplay('AsusROGZephyrusS')" class="custom-card  p-5">
+      <div class="p-2 bd-highlight border border-dark card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/Cards/laptops/asusrogS.jpeg" alt="..." class="img-fluid border border-dark">
+          </div>
+           <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Asus ROG Zephyrus S</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </a> 
+      </div>
+    </div>
+  
+
+    <div id="msigs66" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/msi gs66.jpeg" alt="" class="product img-fluid p-2 border">
+            <img src="img/Cards/laptops/msi gs66a.jpeg" alt="" class="product img-fluid p-2 border">
+            <img src="img/Cards/laptops/msi gs66b.jpeg" alt="" class="product img-fluid p-2 border">
+            <img src="img/Cards/laptops/msi gs66c.jpeg" alt="" class="product img-fluid p-2 border">
+            <img src="img/Cards/laptops/msi gs66d.jpeg" alt="" class="product img-fluid p-2 border">
+            <img src="img/Cards/laptops/msi gs66e.jpeg" alt="" class="product img-fluid p-2 border">
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side border border-dark" >
+          <h7 class="naming pt-2"><b>
+            MSI GS66 Stealth Core i7 10th Gen - (32 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA Geforce RTX 2070 Super Max-Q) GS66 Stealth 10SFS-066IN Gaming Laptop  (15.6 inch, Black, 2.11 kg)
+            </b>
+          </h7><br><br>
+          <p class="text-success fw-bold">Special Offer </p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 254990 </h5>
+
+            <h9 class="text-decoration-line-through pe-3">Rs 269990 </h9>
+            <p class="text-success fw-bold"> 5% off</p>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66a.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Eye-catching Design</h5>
+                    <p class="card-text" style="font-size: 14px;">The dark matte colour and low-profile design of this MSi GS66 Stealth laptop truly lives up to its Stealth moniker. The reinforced black metal chassis featured on this laptop offers a rigid platform that is ideal for daily use. This laptop oozes confidence thanks to its design and performance capabilities.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Nvidia Geforce RTX SUPER Series Graphics</h5>
+                    <p class="card-text" style="font-size: 14px;">The MSi GS66 Stealth laptop features the power-packed GeForce RTX SUPER Series graphics card that has more cores and higher clock speeds than conventional graphics cards. When compared to previous-generation GPUs, this graphics card delivers super-fast performance that makes gaming fun. The super-fast ray tracing of this Nvidia Geforce RTX SUPER Series graphics card delivers physically accurate shadows, reflections, and lighting to give you an immersive gaming experience. To go one step further, you can use the Tensor Cores for super-powerful AI-processing. This GPU is the perfect secret weapon for hardcore gamers as it can deliver advanced memory usage, performance boosts, and processing technologies that boost your gaming performance.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66b.png" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66c.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Power That Lasts</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop features a 99.9 Whr large capacity battery that provides a longer runtime to ensure the fun never has to stop abruptly.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Stay Cool</h5>
+                    <p class="card-text" style="font-size: 14px;">The Cooler Boost Technology that is featured in this MSi laptop ensures optimal heat dissipation. The Cooler Boost Trinity+ features the world’s thinnest 0.1 mm sharp-edged fan blades that enhance airflow to provide efficient cooling that supports intense gaming sessions.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66d.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66e.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Per-key RGB Gaming Keyboard By Steelseries</h5>
+                    <p class="card-text" style="font-size: 14px;">This MSI GS66 Stealth laptop features a keyboard that allows you to customize each key to your liking. You can receive real-time in-game status with the help of the lighting on the Steelseries keyboard. The lights can also be set to dance to your favourite tunes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Blaze Through Games</h5>
+                    <p class="card-text" style="font-size: 14px;">The display of this laptop has a blazingly fast 300 Hz refresh rate. This is five times faster than the displays that are found on conventional laptops. The refresh rate of this display lets you enjoy an immersive gaming experience with fluid gaming visuals so you can react more quickly.
+
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66f.png" alt="..." class="p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66g.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Matrix Display</h5>
+                    <p class="card-text" style="font-size: 14px;">You can expand your vision using this laptop as it allows you to multi-task with up to three monitors with the help of HDMI and Thunderbolt 3 technology. You can immerse yourself in the 8K resolution output for some thrilling fun times.
+                    </p>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Duo Wave Speaker That Has Been Tuned to Perfection</h5>
+                    <p class="card-text" style="font-size: 14px;">This MSI laptop’s front-firing Duo Wave Speaker delivers sound that you can listen to and feel as well. These speakers feature passive radiator technology that generates a thumping bass that is accompanied by clean and crisp soundso you can react more quickly.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66h.png" alt="..." class="p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66i.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Connectivity</h5>
+                    <p class="card-text" style="font-size: 14px;">The MSi GS66 Stealth features these connectivity options - 1x Killer Lan, 1x Combo Jack, 1x HDMI 2.0, 1x Thunderbolt 3 w/ PD charging, 1x Type-C USB 3.2, 3x Type-A USB 3.2
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">Laptop, Power Adaptor, Air Gaming Backpack, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">GS66 Stealth 10SFS-066IN</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">9S7-16V112-066</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">GS66 Stealth</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">Black</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">Processing & Multitasking, Gaming
+              </p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Battery</p>
+              <p class="col">4 cell</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">No</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i7</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">10th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">1 TB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">32 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 10750H</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">5 GHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Memory Slots</p>
+              <p class="col">2 Slots</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">2666 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">12 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2070 Super Max-Q</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">6</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RJ45</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">1x Type-C (USB3.2 Gen2 / DP / Thunderbolt 3) with PD charging, 1x Type-C USB3.2 Gen2, 3x Type-A USB3.2 Gen2</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">
+                39.62 cm (15.6 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">Full HD LED Backlit IPS Thin Bezel Display (300 Hz Refresh Rate, Close to 100% sRGB)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Built-in Mice</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Chip</p>
+              <p class="col">Realtek ALC 1220</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound</p>
+              <p class="col">2 x 2 W Stereo Speakers</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col"> Killer Wi-Fi 6 AX1650i</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Ethernet</p>
+              <p class="col">Gigabit LAN</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">HD Webcam (720p at 30 fps)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">Per-key RGB Keyboard (Full Color)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Backlit Keyboard</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">Touchpad</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Included Software</p>
+              <p class="col">Shift, Cooler Boost 5, True Color 2.0, Nahimic 3</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Laptop Bag</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">99 WHr Li-Polymer Batter</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">2 Year Carry in Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Carry In</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Part Failure</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage, Burn, Liquid Spill</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">2 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="msigp65" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/msigp65a.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/msigp65.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/msigp65b.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/msigp65c.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/msigp65d.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/msigp65e.jpeg" alt="" class="product img-fluid p-2">
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side " >
+          <h7 class="naming pt-2"><b>MSI GP65 Leopard Core i7 10th Gen - (32 GB/1 TB HDD/512 GB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2070) GP65 Leopard 10SFK-037IN Gaming Laptop  (15.6 inch, Black, 2.3 kg)
+            </b>
+          </h7><br><br>
+          <p class="text-success fw-bold">Special Offer </p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 149990 </h5>
+
+            <h9 class="text-decoration-line-through pe-3">Rs 173990</h9>
+            <p class="text-success fw-bold"> 13% off</p>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigp65a.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Nvidia Graphics</h5>
+                    <p class="card-text" style="font-size: 14px;">The MSI GP65 Leopard gaming laptop comes with the Nvidia GeForce RTX 20 series graphics card. This powerful and sleek gaming graphics card is powered by Nvidia’s advanced Turing GPU architecture and the RTX platform. With real-time ray tracing, AI and other innovative features, RTX helps enhance your gaming experience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Powerful Processor</h5>
+                    <p class="card-text" style="font-size: 14px;">This gaming laptop from MSI comes equipped with the 10th generation, Intel Core i7 processor. This powerful processor comes with a 15% higher performance than the previous generation processor and gives you better gaming experience.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigp65b.png" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigp65c.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Great Sound Output</h5>
+                    <p class="card-text" style="font-size: 14px;">Apart from visuals, sound is also an important factor for a game to have the optimum effect. The MSI GP65 Leopard gaming laptop comes with its proprietary Giant Speakers that let you listen to each and every sound in the game in the best possible manner. The exclusively designed audio module of this gaming machine coupled with an independent sound chamber deliver top-notch audio and is sure to thrill the gamer in you.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Steelseries Keyboard</h5>
+                    <p class="card-text" style="font-size: 14px;">A keyboard is perhaps the heart of a gaming laptop. Without a well-designed keyboard, playing games, making those sudden dashes, changing lanes or weapons and more would be impossible. However, the MSI GP65 comes with the Steelseries keyboard. This keyboard lets you customize each key to your gaming needs. You can also get real-time in-game status through the numerous lighting options available with the keyboard. The keyboard lightings can also be customized to dance to your favourite tunes.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66d.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs66e.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Impressive Display</h5>
+                    <p class="card-text" style="font-size: 14px;">The MSI GP65 Leopard gaming laptop comes with a 144 Hz IPS-level display. This thin bezel display gives you the most vibrant of images and visuals so that you do not miss out on any frames of your favourite gaming titles.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">Laptop, Power Adaptor, Air Gaming Backpack, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">
+                GP65 Leopard 10SFK-037IN</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">
+                9S7-16U711-037</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">
+                GP65 Leopard</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">Black</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">Processing & Multitasking, Gaming
+              </p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Battery</p>
+              <p class="col">6 cell</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">No</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i7</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">10th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">512 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">32 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 10750H</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">5 GHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Memory Slots</p>
+              <p class="col">2 Slots</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">2666 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">12 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2070</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">6</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RJ45</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">1 x USB 3.2 Type C (2nd Gen), 1 x USB 3.2 Type A (2nd Gen), 2 x USB 3.2 Type A (1st Gen)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Multi Card Slot</p>
+              <p class="col">3-in-1 Card Reader</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">
+                39.62 cm (15.6 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">Full HD LED Backlit IPS Thin Bezel Display (144 Hz Refresh Rate, Close to 100% sRGB)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Built-in Mice</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Chip</p>
+              <p class="col">Realtek ALC 233</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound</p>
+              <p class="col">2 x 2 W Stereo Speakers</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col"> Killer Wi-Fi 6 AX1650i</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Ethernet</p>
+              <p class="col">Gigabit LAN</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">HD Webcam (720p at 30 fps)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">Per-key RGB Keyboard (Full Color)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Backlit Keyboard</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">Touchpad</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Included Software</p>
+              <p class="col">Shift, Cooler Boost 5, True Color 2.0, Nahimic 3</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Laptop Bag</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">51 WHr Li-Polymer Batter</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">2 Year Carry in Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Carry In</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Part Failure</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage, Burn, Liquid Spill</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">2 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="msigs75" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/msigs75a.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/msigs75b.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/msigs75c.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/msigs75d.jpeg" alt="" class="product img-fluid p-2">
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side " >
+          <h7 class="naming pt-2"><b>MSI GS75 Stealth Core i9 10th Gen - (32 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2070 Super Max-Q/300 Hz) GS75 Stealth 10SFS-871IN Gaming Laptop  (17.3 inch, Black, 2.4 kg)
+            </b>
+          </h7><br><br>
+          <p class="text-success fw-bold">Special Offer </p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 259990 </h5>
+
+            <h9 class="text-decoration-line-through pe-3">Rs 291990</h9>
+            <p class="text-success fw-bold"> 10% off</p>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75a.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Game On with Ease</h5>
+                    <p class="card-text" style="font-size: 14px;">This MSI gaming laptop comes equipped with the GeForce RTX 2070 Super GPU, which delivers a faster performance because it has more cores. Furthermore, real-time ray tracing offers a realistic and lifelike gaming experience. Moreover, the performance boosts, AI processing, and enhanced memory make this laptop ideal for dedicated gamers.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Performance</h5>
+                    <p class="card-text" style="font-size: 14px;">It comes equipped with the 10th Gen. Intel Core i9 octa-core processor so that you can enjoy a faster and immersive gaming experience.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75b.jpeg" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75c.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Display</h5>
+                    <p class="card-text" style="font-size: 14px;">It boasts an FHD thin bezel backlit display with a refresh rate of up to 300 Hz so that you can enjoy a seamless visual experience to make your gaming experience true to life.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Kill Online with the Killer 1552</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop comes equipped with the Killer 1552 that ensures lag-free online gaming by prioritizing and protecting network traffic and negating lag spikes. Moreover, the Killer Control Center allows you to manage bandwidth for each application with ease.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75e.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75f.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Audio</h5>
+                    <p class="card-text" style="font-size: 14px;">Enjoy an immersive audio experience with this laptop, which comes equipped with the ESS SabreHi-Fi DAC and supports up to 192 kHz/24 bit high-resolution audio.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Connectivity</h5>
+                    <p class="card-text" style="font-size: 14px;">It comes equipped with a Thunderbolt 3 port, among other ports so that you can enjoy faster data transfer and be more productive. Moreover, this port can also be used to charge your smartphone quickly.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75g.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/msigs75d.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Cooling System</h5>
+                    <p class="card-text" style="font-size: 14px;">It comes equipped with the Cooler Boost technology that helps keep your system optimally cool. Moreover, it features a 0.1 mm fan blade design. Furthermore, the Cooler Boost Trinity+ optimizes the airflow.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">Laptop, Power Adaptor, Air Gaming Backpack, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">GS75 Stealth 10SFS-871IN</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">9S7-17G311-871</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">
+                GS75 Stealth</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">Black</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">Processing & Multitasking, Gaming
+              </p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Battery</p>
+              <p class="col">4 cell</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">No</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i9</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">10th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">1 TB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">32 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 10980HK</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">
+                2.4 GHz with Turbo Boost Upto 5.3 GHz</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">3200 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">16 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2070 Super Max-Q</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">8</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RJ45</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">1 x USB 3.2 Type C (2nd Gen), 1 x USB 3.2 Type A (2nd Gen), 2 x USB 3.2 Type A (1st Gen)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Multi Card Slot</p>
+              <p class="col">
+                Micro SD Card Reader</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">43.94 cm (17.3 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">Full HD LED Backlit IPS Thin Bezel Display (144 Hz Refresh Rate, Close to 100% sRGB)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Built-in Mice</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Chip</p>
+              <p class="col">Realtek ALC 233</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound</p>
+              <p class="col">2 x 2 W Stereo Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Refresh Rate</p>
+              <p class="col">300 Hz</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col"> Killer Wi-Fi 6 AX1650i(2x2 ax)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.1</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Ethernet</p>
+              <p class="col">Yes</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">IR HD Webcam (720P at 30 fps)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">Per-key RGB Keyboard (Full Color)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Backlit Keyboard</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">Touchpad</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Included Software</p>
+              <p class="col">SNahimic 3, Cooler Boost, Trinity+, Dragon Center, True Color 2.0</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">82 WHr Li-Polymer Batter</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">2 Year Carry in Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Carry In</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Part Failure</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage, Burn, Liquid Spill</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">2 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="AsusROGZephyrusS" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/asusrogSa.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/asusrogSb.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/asusrogSc.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/asusrogSd.jpeg" alt="" class="product img-fluid p-2">
+            
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side " >
+          <h7 class="naming pt-2"><b>Asus ROG Zephyrus S Core i7 9th Gen - (24 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2070) GX531GWR-AZ044T Gaming Laptop  (15.6 inch, Black Metal, 2.1 kg)
+            </b>
+          </h7><br><br>
+          <p class="text-danger fw-bold">Hurry, Only 3 left</p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 322990</h5>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSa.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">A Slim Gaming Laptop</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop packs in the punch of a powerful gaming laptop (equipped with the NVIDIA GeForce RTX 2070 Max-Q GPU and the Intel Core i7 processor) into its slim design with scissor-door hinges.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">A Display Meant for Gaming</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop’s 240 Hz IPS-level display and its slim design with narrow bezels facilitate a visually appealing gaming atmosphere. It also has a high refresh rate which makes gaming on this laptop a smooth affair. With the presence of 100% sRGB colour gamut and 178-degree wide viewing angles, this device will enthral you for a fun gaming experience.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSb.png" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSc.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Intelligent Cooling System
+                    </h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop, with its Active Aerodynamic System (AAS), has additional vents that ensure increased airflow to keep all its components cool during intense hours of gaming. This laptop also has a self-cleaning thermal module that ejects dust, thereby enhancing its durability. The ROG Armoury Crate software switches between operating modes for optimized performance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Military-grade Toughness</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop has met the MIL-STD-810G standards of being a strong device that can withstand shock, vibration, altitude, and other extreme environmental conditions.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSd.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features//asuszSe.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Gaming Keyboard with Aura Sync</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop’s keyboard has been optimized for gaming with features, such as keys with precise input, customizable backlight colours, and N-key rollover with 20 million key presses. You can even sync this keyboard’s lighting with other Aura Sync-compatible peripherals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Immersive Audio</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop has been designed with dual speakers for enhanced audio. It also features the Smart Amplifier Tech that enhances the durability of the cones without compromising on the audio clarity.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSf.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSg.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      ROG Armoury Crate</h5>
+                    <p class="card-text" style="font-size: 14px;">Make adjustments and control the lighting easily with the ROG Armoury Crate - a one-stop destination for unified system tuning and personalization.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Charge Using Portable Devices</h5>
+                    <p class="card-text" style="font-size: 14px;">You don’t have to look for a charging port when your laptop is low on charge. With USB power delivery, this laptop lets you charge the device using portable power banks as well.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSh.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asuszSi.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Multiple Connectivity Options</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop comes with multiple connectivity options, including USB Type-C ports (USB 3.1 Gen 2 and Gen 1), USB Type-A 3.1 Gen 2 port, and USB 2.0 ports to help you connect all peripherals easily. You can even take your gaming onto a bigger screen, as the HDMI 2.0b port supports 4K UHD display (up to 60 Hz).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">
+                Laptop, Power Adaptor, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">GX531GWR-AZ044T</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">
+                90NR02H1-M00690</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">
+                ROG Zephyrus S</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">Black Metal</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">
+                Gaming, Processing & Multitasking</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Battery</p>
+              <p class="col">4 cell</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">No</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i7</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">9th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">1 TB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">24 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 9750H</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470 Express</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">2.6 GHz with Turbo Boost Upto 4.5 GHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Memory Slots</p>
+              <p class="col">2 Slots</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">2666 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">12 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2070</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">6</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">2 x USB 2.0, 1 x USB 3.1, 2 x USB 3.1 Type C</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port (v2.0)</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">
+                39.62 cm (15.6 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">Full HD LED Backlit Anti-glare IPS Display (With 240 Hz Refresh Rate)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Built-in Array Microphone</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Properties</p>
+              <p class="col">2 x 2 W Speakers with Smart Amp</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col">IEEE 802.11ac</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.0</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">HD 720P Webcam</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">
+                Illuminated Chiclet 4 Zone RGB Keyboard</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Lock Port</p>
+              <p class="col">Kensington Lock Slot</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">Touchpad (With Exclusive Dual-function Number Pad)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">Li-ion Battery</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">1 Year Onsite Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Carry In</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Part Failure</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage, Burn, Liquid Spill</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">1 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="Legion7i" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/legiona.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/legionb.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/legionc.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/legiond.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/legione.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/legionf.jpeg" alt="" class="product img-fluid p-2">
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side " >
+          <h7 class="naming pt-2"><b>Lenovo Legion 7i Core i7 10th Gen - (16 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2080 Super Max-Q) 15IMHg05 Gaming Laptop  (15.6 inch, Slate Grey, 2.25 kg, With MS Office)
+            </b>
+          </h7><br><br>
+          <p class="text-danger fw-bold">Hurry, Only few left</p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 245990</h5>
+            <h9 class="text-decoration-line-through pe-3">Rs 349890</h9>
+            <p class="text-success fw-bold"> 29% off</p>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legiona.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Design</h5>
+                    <p class="card-text" style="font-size: 14px;">It features a high-quality sand-blasted and anodised all aluminium chassis with an illuminated logo that gives it a classy look. While the vertical vents along the edges and drilled holes on the bottom and over the keyboard offer sufficient space for the system to breathe, its U-shaped light strip and illuminated rear vents make it look premium. You can also customise its RGB lighting effects with the Corsair iCue software.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Performance</h5>
+                    <p class="card-text" style="font-size: 14px;">With up to 10th Generation Intel Core i9 processor, 16 GB of RAM, 5.1 GHz clock speed and the in-built Thunderbolt 3, this laptop ensures an enhanced and seamless gaming experience.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/legionb.png" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legionc.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">NVIDIA GeForce RTX</h5>
+                    <p class="card-text" style="font-size: 14px;">While the NVIDIA GeForce RTX 2080 Super with Max-Q technology facilities improved gaming graphics, the NVIDIA Dynamic Boost balances the power of CPU and GPU through its intelligent power assessment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Display</h5>
+                    <p class="card-text" style="font-size: 14px;">Its 39.62 cm FHD IPS antiglare display, along with 500 nits brightness, Dolby Vision HDR and 100% Adobe RGB color gamut gives you impressive visuals with vivid colors and contrast. Its 144 Hz refresh rate and NVIDIA G-Sync technology ensure zero screen tearing. What’s more, its 4-sided narrow bezels offer a wide viewing space.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/legiond.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legione.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Legion Coldfront 2.0</h5>
+                    <p class="card-text" style="font-size: 14px;">This innovative thermal technology, with a vapour chamber that reduces heat and a six-point thermal sensor array that keeps you updated of the thermal requirements, ensures high-quality performance. It has dual liquid crystal polymer fans that work with the system’s dedicated quad thermal channel to ensure excellent air circulation while keeping noise to a minimum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Keyboard</h5>
+                    <p class="card-text" style="font-size: 14px;">The keyboard features soft-landing switches and 1.3 mm key travel, along with dedicated media controls, large arrow keys and a trackpad, that can be customised with over 16 million colors through the Corsair iCUE software.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/legionf.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legiong.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Audio</h5>
+                    <p class="card-text" style="font-size: 14px;">Its 2x2 W Harman speakers powered by the three dimensional Dolby Atmos help you immerse into a cinematic surround-sound experience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Battery</h5>
+                    <p class="card-text" style="font-size: 14px;">Its 80 Whr battery keeps you entertained for long hours with a single, full charge. With the Rapid Charge Pro feature, you can charge the laptop by up to 50% in just 30 minutes.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/legionh.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legioni.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Speed</h5>
+                    <p class="card-text" style="font-size: 14px;">While the Bluetooth 5.0 technology keeps you connected to your external devices, its ultra-fast 2x2 Wi-Fi 6 support ensures a lag-free and uninterrupted gaming experience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Q Control 3.0</h5>
+                    <p class="card-text" style="font-size: 14px;">IIt helps you choose different modes, such as performance mode, quiet mode and balance mode according to your gaming requirements. You can also access various features, such as power management, software updates and charging thresholds conveniently.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/legionj.png" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/legionk.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Xbox Game Pass</h5>
+                    <p class="card-text" style="font-size: 14px;">Bring home this Lenovo laptop and enjoy playing over 100 high-quality PC games on Windows 10 devices as you will get a one-month subscription to the Xbox Game Pass. What’s more, new games are added constantly, ensuring that you can stay entertained at all times.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">
+                Laptop, Power Adaptor, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">15IMHg05</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">
+                81YU002AIN</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">
+                Legion 7i</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">
+                Slate Grey</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">
+                Gaming, Processing & Multitasking</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">Yes</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i7</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">10th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">1 TB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">16 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 10875H</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470 Express</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">2.3 GHz with Turbo Boost Upto 5.1 GHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Memory Slots</p>
+              <p class="col">2 Slots</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">3200 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">16 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2080 Super Max-Q</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">8</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start pt-4">
+              <p class="col">RJ45</p>
+              <p class="col">Yes</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">
+                1 x USB 3.1 ((1st Gen) (Always On)), 2 x USB 3.1 (2nd Gen), 1 x USB 3.1 Type C ((1st Gen) (with the Function of Display 1.4)), 1 x USB 3.1 Type C (2nd Gen) / Thunderbolt 3 (with the Function of DP 1.4)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port (v2.0)</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">
+                39.62 cm (15.6 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">
+                Full HD LED Backlit Anti-glare WVA Display (16:9 Aspect Ratio, 500 nits Brightness, 144 Hz Refresh Rate, 100% Adobe RGB Gamut, HDR400, Dolby Vision, G-Sync Support)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Dual Array Microphone</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Properties</p>
+              <p class="col">2 x 2 W Speakers with Dolby Atoms</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col">IEEE 802.11ax (Wi-Fi 6)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Ethernet</p>
+              <p class="col">100/1000 Mbps</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">HD 720P Webcam</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Finger Print Sensor</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Security Chip</p>
+              <p class="col">TPM 2.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">
+               English RGB LED Backlit Keyboard</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Backlit Keyboard</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">
+                Multi-touch Touchpad</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Included Software</p>
+              <p class="col">
+                Microsoft Office Home and Student 2019</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">80 WHr Li-ion Battery</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">1 Year Onsite Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Onsite</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Manufacturing Defects</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">1 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="asusbeauty" class="container mt-5">
+      <div class="row products">
+        <div class="col left-side ">
+          <div class="product-img ">
+            <img src="img/Cards/laptops/asusa.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/asusb.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/asusc.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/asusd.jpeg" alt="" class="product img-fluid p-2 ">
+            <img src="img/Cards/laptops/asuse.jpeg" alt="" class="product img-fluid p-2">
+            <img src="img/Cards/laptops/asusf.jpeg" alt="" class="product img-fluid p-2">
+            <div class="d-grid">
+              <button class="btn btn-danger m-1">Add to Cart</button>
+              <button class="btn btn-primary m-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col right-side " >
+          <h7 class="naming pt-2"><b>Asus ROG Zephyrus Duo 15 Core i7 10th Gen - (32 GB/2 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2080 Super with Max-Q Design) GX550LXS-HC145TS Gaming Laptop  (15.6 inch, Gray, 2.48 kg, With MS Office)
+            </b>
+          </h7><br><br>
+          <p class="text-danger fw-bold">Hurry, Only few left</p>
+          <div class="d-flex">
+            <h5 class="text-primary pe-2">Rs 339990</h5>
+            <h9 class="text-decoration-line-through pe-3">Rs 465990</h9>
+            <p class="text-success fw-bold"> 27% off</p>
+          </div>
+          <h4 class="fw-bold">Product Description</h4>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusa.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Expand Your Horizons</h5>
+                    <p class="card-text" style="font-size: 14px;">Take your gaming and creative skills to new heights with this Zephyrus Duo 15 laptop. With the ROG ScreenPad Plus secondary display, this laptop is here to give you an astounding Windows 10 experience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ROG ScreenPad Plus</h5>
+                    <p class="card-text" style="font-size: 14px;">Enhance your workflow and boost your productivity with the inbuilt ROG ScreenPad Plus display. Its 13-degree tilt provides a comfortable viewing experience. With screen space for your critical tools, you can do more with a larger working area. Moreover, while you’re gaming on the main screen, you can keep stream controls and chats on deck.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusb.jpeg" alt="..." class="pt-5 pe-2 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusc.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Performance</h5>
+                    <p class="card-text" style="font-size: 14px;">Powered by the 10th Gen Intel Core i7-10875H CPU and NVIDIA GeForce RTX 2080 SUPER Max-Q GPU, this laptop is here to handle all your tasks and provide you with an immersive computing experience. The speedy CPU is made to handle intense tasks like 3d rendering, streaming and photo editing. Whereas, the GPU facilitates in giving you optimum gaming experience by enabling incredible realism and high frame rates. What’s more, the 32 GB (2x 16GB) of DDR4-3200 MHz Dual Channel RAM and 2TB (2x 1TB) of lightning-fast M.2 NVMe PCIe 3.0 RAID 0 SSD storage offers blazing fast load times for all your preferred games and apps, and also breezes through some complex multitasking with ease.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">High Refresh Rate</h5>
+                    <p class="card-text" style="font-size: 14px;">With an impressively sharp display, gamers can benefit from the 60 Hz FHD gaming panel for stellar gaming graphics. While hunting for fast-paced targets, you can reduce ghosting for better accuracy, thanks to the 3ms grey-to-grey response time. With lifelike gameplay graphics, the NVIDIA G-SYNC mode delivers an amazing visual experience. With stylus support and touchscreen utility, the secondary ScreenPad Plus display is here to add all this, along with vital space, to your artistic toolkit.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusd.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asuse.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Pantone Validated</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop comes with IPS-level panels that are factory calibrated by Pantone-approved displays, which means that each shade of colour that you see meets the needs of the globally recognised Pantone Colour Validation requirements. The stellar colour accuracy enables designers, artists and content creators to play around and have some fun while they work.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Rise to Challenges</h5>
+                    <p class="card-text" style="font-size: 14px;">The AAS Plus system attracts the traditional Active Aerodynamic System that frees up 28.5 mm of air absorption at the back of the second screen that decreases noise and pulls in cooler air. When fused with cutting-edge measures like liquid metal thermal compound on the CPU, this powerful gadget provides a stellar performance. The ROG Armoury Crate software seamlessly shifts between operating modes depending on the current task that helps optimizing cooling acoustics and performance.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusf.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusg.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Liquid Metal Thermal Compound</h5>
+                    <p class="card-text" style="font-size: 14px;">The CPU temperatures decrease by up to 14-degrees centigrade with the help of liquid metal compound from Thermal Grizzly. Automated custom equipment is commissioned for optimum results. The CPU also consists of a special internal fence that prevents the liquid metal from dripping out over time.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Ultra-thin Fins</h5>
+                    <p class="card-text" style="font-size: 14px;">All 4 heatsinks are lined with 0.15 mm ultrathin copper fins that help thermal energy to dissipate. With them being half the size of regular solutions, these fins provide a higher density to enhance the surface area for heat dissipation and reduce air resistance to provide smoother flow. With over 252 heatsink fins, about 110,328mm2 counts as surface area.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asush.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusr.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Heatpipes</h5>
+                    <p class="card-text" style="font-size: 14px;">The five heatpipes reduce the temperature of the power components by pulling heat away from the CPU, GPU and the circuitry that supplies them with power. This feature helps increase reliability and long-term stability.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Scenario Profiles</h5>
+                    <p class="card-text" style="font-size: 14px;">The Turbo Mode features the highest frequencies and fan speed that is ideal for video editing, 3D rendering and other CPU-intensive tasks. Performance Mode optimizes cooling and performance to reduce noise levels under 40 dB while gaming. The Silent Mode works well with lighter tasks like watching movies by taking acoustics below 35 dB. Moreover, with just a keyboard shortcut, you can quickly change to different scenarios, thanks to the fine-tuned system profiles.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusi.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusj.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Ultra-slim Gamings</h5>
+                    <p class="card-text" style="font-size: 14px;">With a unique hinge design, the secondary screen tilts in an identical motion as lifting the lid, which gives you a comfortable experience in terms of viewing, touchscreen interaction and to improve cooling by opening up bigger air intake.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Made for the Future</h5>
+                    <p class="card-text" style="font-size: 14px;">Expand your workstation regardless of where you are, thanks to the USB Type-C with Thunderbolt 3. You can add extra storage for incredibly fast media editing and transfers or you can manage multiple tasks as well. You can output media to UHD TVs, monitors, and more at up to 8K resolution, thanks to the interface bandwidth of up to 40 Gbps.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusk.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusl.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Easy Design</h5>
+                    <p class="card-text" style="font-size: 14px;">The pop-open screw can be removed to push the chassis’ bottom away from the body. The hooks that hold the edges in place have a looser fit so it makes it easy to lift off the panel. All the SO-DIMM and SSD slots make modifications simple as they are easily accessible underneath the bottom panel.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Powerfully Portable</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop lets you game, stream and design no matter where you are, as it’s just 20.9 mm thin and weighs around 2.48 kg. This laptop is encased in a flexible magnesium-aluminide chassis that makes this device tough, sturdy and stylish. With a 90Wh battery, you can, both, work and play for long hours. Moreover, the Type-C charging allows you to recharge from portable power banks. You can even travel lighter by using the 65 W adaptor for your daily browsing and streaming activities.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusm.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusn.png" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Hear ESS Sabre Audio</h5>
+                    <p class="card-text" style="font-size: 14px;">The ESS Sabre HiFi DAC delivers High-Res audio. You can plug in a mic and use the microphone jack to stream videos and chat with your peers. Moreover, the Twin Smart Amp-powered speakers protect the cones from damage by staying within excursion and thermal limits. You can easily increase the volume as it provides less sound distortion, deeper bass and a broader range.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Multitude of Keys</h5>
+                    <p class="card-text" style="font-size: 14px;">The spaces between function keys are designed for intuitive identification. The N-key rollover is made to precisely record simultaneous presses and the hotkeys are made to hold vital commands close at hand. During marathon gaming sessions, the forward position lowers surface temperatures by keeping your hand away from the chassis. In addition, the detachable palm accessory enhances ergonomic support. The critical keys can be highlighted and you can create time-saving shortcuts, thanks to the per-key RGB customization. Moreover, increase your input speed With a travel distance of 1.4 mm that provides easy keystrokes.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asuso.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/Features/asusq.jpeg" alt="..." class="p-3 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Unified System Tuning and Personalization</h5>
+                    <p class="card-text" style="font-size: 14px;">With the ROG Armoury Crate, the system and lighting controls are combined so that the main settings are kept well within your fingertips. You can easily make adjustments during the launch of your favourite titles, thanks to the easily customizable Scenario Profiles.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <div class="card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Connectivity</h5>
+                    <p class="card-text" style="font-size: 14px;">This laptop is equipped with a USB 3.2 Gen 2 Type-C with DisplayPort 1.4, Thunderbolt 3, and Power Delivery that allows you to connect your other compatible devices for speedy data transfers and rapid charging. It also comes with three USB 3.2 Type-A ports that enables you to connect your gaming gears. You can stream music and have crystal-clear voice chats by connecting an external microphone to one of the two audio jacks. The HDMI 2.0b port sustains 4K UHD at up to 60Hz that allows you to game or watch videos on a big screen.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="img/Features/asusp.jpeg" alt="..." class=" p-3 img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+      <div class="specifications mb-4">
+        <h4 class="text-center">
+          <strong>
+            Specifications
+          </strong>
+        </h4>
+        <ul class="list-group list-group-flush border border-dark">
+          
+          <li class="list-group-item">
+            <strong>
+              General
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Sales Package</p>
+              <p class="col">
+                Laptop, Power Adaptor, User Guide, Warranty Documents</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Model Number</p>
+              <p class="col">15IMHg05</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Part Number</p>
+              <p class="col">
+                81YU002AIN</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Series</p>
+              <p class="col">
+                Legion 7i</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Color</p>
+              <p class="col">
+                Slate Grey</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Type</p>
+              <p class="col">Gaming Laptop</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Suitable For</p>
+              <p class="col">
+                Gaming, Processing & Multitasking</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Power Supply</p>
+              <p class="col">230 W AC Adapter</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">MS Office Provided</p>
+              <p class="col">Yes</p>
+            </div>
+
+
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Processor And Memory Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              
+              <p class="col">Dedicated Graphic Memory Type</p>
+              <p class="col">GDDR6</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Dedicated Graphic Memory Capacity</p>
+              <p class="col">8 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Brand</p>
+              <p class="col">Intel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Name</p>
+              <p class="col">Core i7</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Generation</p>
+              <p class="col">10th Gen</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">SSD Capacity</p>
+              <p class="col">1 TB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM</p>
+              <p class="col">16 GB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Type</p>
+              <p class="col"> DDR4</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Processor Variant</p>
+              <p class="col"> 10875H</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Chipset</p>
+              <p class="col">Intel HM470 Express</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Clock Speed</p>
+              <p class="col">2.3 GHz with Turbo Boost Upto 5.1 GHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Memory Slots</p>
+              <p class="col">2 Slots</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">RAM Frequency</p>
+              <p class="col">3200 MHz</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Cache</p>
+              <p class="col">16 MB</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Graphic Processor</p>
+              <p class="col">NVIDIA Geforce RTX 2080 Super Max-Q</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Number of Cores</p>
+              <p class="col">8</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Operating System
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">OS Architecture</p>
+              <p class="col">64 bit</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Operating System</p>
+              <p class="col">Windows 10 Home</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">System Architecture</p>
+              <p class="col">64bit</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Port And Slot features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Mic In</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start pt-4">
+              <p class="col">RJ45</p>
+              <p class="col">Yes</p>
+            </div>
+            
+            <div class="row align-items-start">
+              <p class="col">USB Port</p>
+              <p class="col">
+                1 x USB 3.1 ((1st Gen) (Always On)), 2 x USB 3.1 (2nd Gen), 1 x USB 3.1 Type C ((1st Gen) (with the Function of Display 1.4)), 1 x USB 3.1 Type C (2nd Gen) / Thunderbolt 3 (with the Function of DP 1.4)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">HDMI Port</p>
+              <p class="col">1 x HDMI Port (v2.0)</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>
+              Display And Audio Features
+            </strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Touchscreen</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Size</p>
+              <p class="col">
+                39.62 cm (15.6 inch)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Resolution</p>
+              <p class="col">1920 x 1080 Pixel</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Screen Type</p>
+              <p class="col">
+                Full HD LED Backlit Anti-glare WVA Display (16:9 Aspect Ratio, 500 nits Brightness, 144 Hz Refresh Rate, 100% Adobe RGB Gamut, HDR400, Dolby Vision, G-Sync Support)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Speakers</p>
+              <p class="col">Built-in Dual Speakers</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Internal Mic</p>
+              <p class="col">Dual Array Microphone</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Sound Properties</p>
+              <p class="col">2 x 2 W Speakers with Dolby Atoms</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Connectivity Features</strong>
+            <div class="row align-items-start pt-4">
+              <p class="col">Wireless LAN</p>
+              <p class="col">IEEE 802.11ax (Wi-Fi 6)</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Bluetooth</p>
+              <p class="col">v5.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Ethernet</p>
+              <p class="col">100/1000 Mbps</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Additional Features</strong>
+            <div class="row align-items-start">
+              <p class="col">Disk Drive</p>
+              <p class="col">Not Available</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Web Camera</p>
+              <p class="col">HD 720P Webcam</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Finger Print Sensor</p>
+              <p class="col">No</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Security Chip</p>
+              <p class="col">TPM 2.0</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Keyboard</p>
+              <p class="col">
+               English RGB LED Backlit Keyboard</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Backlit Keyboard</p>
+              <p class="col">Yes</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Pointer Device</p>
+              <p class="col">
+                Multi-touch Touchpad</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Included Software</p>
+              <p class="col">
+                Microsoft Office Home and Student 2019</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Additional Features</p>
+              <p class="col">80 WHr Li-ion Battery</p>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <strong>Warranty</strong>
+            <div class="row align-items-start">
+              <p class="col">Warranty Summary</p>
+              <p class="col">1 Year Onsite Warranty</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Warranty Service Type</p>
+              <p class="col">Onsite</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Covered in Warranty</p>
+              <p class="col">Manufacturing Defects</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Not Covered in Warranty</p>
+              <p class="col">Physical Damage</p>
+            </div>
+            <div class="row align-items-start">
+              <p class="col">Domestic Warranty</p>
+              <p class="col">1 Year</p>
+            </div>
+            <li class="list-group-item"></li>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="aboutus" class="m-5" >
+      <div class="p-5">
+
+        <h3 class="aboutushead text-center"><strong>About Us</h3>
+        </strong>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore enim a ut perspiciatis ducimus vel corrupti consectetur ipsa mollitia possimus, alias iusto suscipit consequatur accusantium ratione doloremque magni laboriosam culpa unde fugit! Provident obcaecati eos placeat deserunt commodi nesciunt accusamus facilis vel ad nulla, adipisci asperiores tenetur pariatur cum porro temporibus? Id sequi sint eveniet accusamus minus quisquam quia aperiam voluptate harum accusantium, modi dolores quis consequatur maxime aut quas ducimus, mollitia rem. Dolores dolore quis saepe? Eius natus iure voluptate itaque facilis temporibus, corrupti doloremque laboriosam eveniet nihil, in voluptatem quod necessitatibus! Quia libero velit placeat harum magnam.</p>
+      </div>
+    </div>
+      <div id="yoursetup" class="mt-5">
+        <h3 class="description text-center p-5">
+        Configure your Desktop Setup with the latest hardware in the Market!!
+      </h3>
+      <div class="processor text-center border row m-5">
+        <h5 class='ps-5 p-2'>Processor</h5>
+        <div class='col'>
+          <select class="form-select-md  m-5 " aria-label="Default select example">
+            <option selected>Please Select The Processor</option>
+            <option value="1">Intel Core i7</option>
+            <option value="2">Intel Core i5</option>
+            <option value="3">Intel Core i9</option>
+            <option value="1">Ryzen 7 Quad Core</option>
+            <option value="2">Ryzen 5 Quad Core</option>
+            <option value="3">Ryzen 7 Octa Core</option>
+          </select>
+        </div>
+        <div class="col">
+          
+          <select class="form-select-md col m-5" aria-label="Default select example">
+            <option selected>Processor Generation</option>
+            <option value="1">9th Generation</option>
+            <option value="2">10th Generation</option>
+            <option value="3">8th Generation</option>
+            <option value="3">7th Generation</option>
+          </select>
+        </div>
+      </div>
+      <div class="harddrive row border m-5">
+        <h5 class='ps-5 p-2 text-center'>Hard Disks & Solid State Drive</h5>
+        <div class='col'>
+          <select class="form-select-md  m-5" aria-label="Default select example">
+            <option selected>Please Select The Hard Disk 1</option>
+            <option value="1">2 TB</option>
+            <option value="2">1 TB</option>
+            <option value="3">4 TB</option>
+            <option value="1">8 TB</option>
+          </select>
+        </div>
+        <div class="col">
+          <select class="form-select-md col m-5" aria-label="Default select example">
+            <option selected>Please Select The Hard Disk 2</option>
+            <option value="1">2 TB</option>
+            <option value="2">1 TB</option>
+            <option value="3">4 TB</option>
+            <option value="1">8 TB</option>
+          </select>
+        </div>
+        <div class="col">
+          <select class="form-select-md col m-5" >
+            <option selected>Please Select The Solid State Drive</option>
+            <option value="1">1 TB</option>
+            <option value="2">128 GB</option>
+            <option value="3">256 GB</option>
+            <option value="1">512 GB</option>
+          </select>
+        </div>
+      </div>
+      <div class="RAM text-center border row m-5">
+        <h5 class='ps-5 p-2'>RAM</h5>
+        <div class='col'>
+          <select class="form-select-md  m-5 " aria-label="Default select example">
+            <option selected>Please Select The RAM Memory</option>
+            <option value="1">8 GB</option>
+            <option value="2">16 GB</option>
+            <option value="3">32 GB</option>
+            <option value="1">64 GB</option>
+            <option value="2">128 GB</option>
+          </select>
+        </div>
+        <div class="col">
+          
+          <select class="form-select-md col m-5" aria-label="Default select example">
+            <option selected>RAM Frequency</option>
+            <option value="1">1333 MHz</option>
+            <option value="2">1666 MHz</option>
+            <option value="3">2133 MHz</option>
+            <option value="3">3200 MHz</option>
+          </select>
+        </div>
+      </div>
+      <div class="gpuprice text-center m-5 border">
+        <h5 class="p-5">Select the Price range for the GPU</h5>
+        <label for="customRange3" class="form-label">Price Range of GPU</label>
+        <div class="range">
+          <input type="range" class="form-range p-5" min="5000" max="100000" value="15000" id="customRange3" />
+          <p>Below: <span id="value"></span></p>
+        </div>
+      </div>
+      <div class="d-grid m-5">
+        <button type="button" onclick="alert('Our Tech advisory will contact you after reviewing your configuration')" class=" btn btn-dark"> Submit</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="js/main.js" aysnc></script>
+    
+  </body>
+</html>

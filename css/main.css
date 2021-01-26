@@ -1,0 +1,56 @@
+html,body{
+    background-color:#ffffff;
+    color: #000000;
+}
+.btn-link{
+    text-decoration: none;
+}
+.best-deals{
+    margin: 5rem 2rem 3rem 2rem;
+    
+}
+.card{
+    background: #f3f3f3;   
+}
+p{
+    font-size: 14px;
+}
+.card{
+    padding-right: 1rem;
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    width: 100%;
+    justify-content: center;  
+}
+.text-decoration-line-through{
+    color: rgb(94, 94, 94);
+}
+.btn-dark{
+    align-items: center;
+}
+.laptops,#aboutus,#yoursetup,#msigs66,#msigp65,#msigs75,#AsusROGZephyrusS,#Legion7i,#asusbeauty{
+    display: none;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+#customRange2{
+    margin-left: -0.3rem;
+   
+}
+
+
+    @media screen and (min-width: 900px){
+        
+        .img{
+            min-height: 900px;
+            max-height: 900px;
+        }
+        
+    }
+
